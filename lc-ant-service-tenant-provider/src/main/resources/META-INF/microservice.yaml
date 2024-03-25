@@ -1,0 +1,7 @@
+name: tenant
+stack:
+  java: ${maven.compiler.target}
+  spring-boot: ${spring-boot.version}
+dependencies:
+  connectors:
+    database: ${lc-ant-connector-database.version}
